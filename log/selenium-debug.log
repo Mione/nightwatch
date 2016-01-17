@@ -1,0 +1,131 @@
+17:48:04.697 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to chromedriver.exe
+17:48:04.733 INFO - Java: Oracle Corporation 25.66-b18
+17:48:04.733 INFO - OS: Windows 7 6.1 amd64
+17:48:04.739 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+17:48:04.774 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:48:04.774 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:48:04.779 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+17:48:04.839 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:48:04.839 INFO - Selenium Server is up and running
+17:48:05.208 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Mio, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:48:05.208 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Mio, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+17:48:05.214 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Mio, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:48:05.214 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Mio, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 9289
+Only local connections are allowed.
+17:48:06.216 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Mio, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+17:48:06.225 INFO - Executing: [get: http://www.mirror.co.uk/])
+17:48:11.111 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Mio, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:48:11.120 INFO - Executing: [get: http://www.mirror.co.uk/])
+17:48:15.391 INFO - Done: [get: http://www.mirror.co.uk/]
+17:48:15.397 INFO - Executing: [find elements: By.cssSelector: body])
+17:48:15.447 INFO - Done: [find elements: By.cssSelector: body]
+17:48:15.468 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: body]])
+17:48:15.575 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: body]]
+17:48:15.582 INFO - Executing: [find element: By.cssSelector: input[name=searchString]])
+17:48:15.590 INFO - Done: [find element: By.cssSelector: input[name=searchString]]
+17:48:15.596 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: input[name=searchString]], [m, a, r, i, u, s]])
+17:48:15.645 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: input[name=searchString]], [m, a, r, i, u, s]]
+17:48:15.651 INFO - Executing: [find elements: By.cssSelector: button.submit-button])
+17:48:16.873 INFO - Done: [find elements: By.cssSelector: button.submit-button]
+17:48:16.876 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: button.submit-button]])
+17:48:16.886 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: button.submit-button]]
+17:48:16.889 INFO - Executing: [find element: By.cssSelector: button.submit-button])
+17:48:16.899 INFO - Done: [find element: By.cssSelector: button.submit-button]
+17:48:16.901 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: button.submit-button]])
+17:48:17.111 INFO - Done: [click: 2 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: button.submit-button]]
+17:48:17.116 INFO - Executing: [find elements: By.cssSelector: .search-results])
+17:48:18.120 INFO - Done: [get: http://www.mirror.co.uk/]
+17:48:18.126 INFO - Executing: [find elements: By.cssSelector: body])
+17:48:18.142 INFO - Done: [find elements: By.cssSelector: body]
+17:48:18.146 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: body]])
+17:48:18.157 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: body]]
+17:48:18.163 INFO - Executing: [find element: By.cssSelector: input[name=searchString]])
+17:48:18.176 INFO - Done: [find element: By.cssSelector: input[name=searchString]]
+17:48:18.179 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: input[name=searchString]], [m, a, r, i, u, s]])
+17:48:18.226 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: input[name=searchString]], [m, a, r, i, u, s]]
+17:48:18.233 INFO - Executing: [find elements: By.cssSelector: button.submit-button])
+17:48:18.255 INFO - Done: [find elements: By.cssSelector: button.submit-button]
+17:48:18.257 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: button.submit-button]])
+17:48:18.272 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: button.submit-button]]
+17:48:18.275 INFO - Executing: [find element: By.cssSelector: button.submit-button])
+17:48:18.293 INFO - Done: [find element: By.cssSelector: button.submit-button]
+17:48:18.295 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: button.submit-button]])
+17:48:18.678 INFO - Done: [find elements: By.cssSelector: .search-results]
+17:48:18.681 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: .search-results]])
+17:48:18.689 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: .search-results]]
+17:48:18.692 INFO - Executing: [find element: By.cssSelector: .search-results])
+17:48:18.699 INFO - Done: [find element: By.cssSelector: .search-results]
+17:48:18.703 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: .search-results]])
+17:48:18.839 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on WINDOWS (79398ae8-da46-4207-bf00-2bbee6f4fd59)] -> css selector: .search-results]]
+17:48:18.843 INFO - Executing: [delete session: 799f8306-efef-44ab-920b-d6d7ac7592b2])
+17:48:19.582 INFO - Done: [delete session: 799f8306-efef-44ab-920b-d6d7ac7592b2]
+17:48:19.694 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Mio2, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:48:19.695 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Mio2, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:48:24.324 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Mio2, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:48:24.328 INFO - Executing: [get: http://www.google.com])
+17:48:26.037 INFO - Done: [get: http://www.google.com]
+17:48:26.040 INFO - Executing: [find elements: By.cssSelector: body])
+17:48:26.076 INFO - Done: [find elements: By.cssSelector: body]
+17:48:26.079 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: body]])
+17:48:26.085 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: body]]
+17:48:26.088 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+17:48:26.094 INFO - Done: [find element: By.cssSelector: input[type=text]]
+17:48:26.098 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+17:48:26.168 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+17:48:26.171 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+17:48:26.177 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+17:48:26.179 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: button[name=btnG]]])
+17:48:26.188 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: button[name=btnG]]]
+17:48:26.191 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+17:48:26.198 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+17:48:26.201 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: button[name=btnG]]])
+17:48:26.259 INFO - Done: [click: 2 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: button[name=btnG]]]
+17:48:26.418 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: button.submit-button]]
+17:48:26.421 INFO - Executing: [find elements: By.cssSelector: .search-results])
+17:48:26.437 INFO - Done: [find elements: By.cssSelector: .search-results]
+17:48:26.440 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: .search-results]])
+17:48:26.452 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: .search-results]]
+17:48:26.456 INFO - Executing: [find element: By.cssSelector: .search-results])
+17:48:26.471 INFO - Done: [find element: By.cssSelector: .search-results]
+17:48:26.473 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: .search-results]])
+17:48:26.511 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (a44d88b59cf5cd5d625a665049e55a90)] -> css selector: .search-results]]
+17:48:26.514 INFO - Executing: [delete session: 09223ada-b2f1-4f99-98f5-67eea672d4f8])
+17:48:27.217 INFO - Done: [delete session: 09223ada-b2f1-4f99-98f5-67eea672d4f8]
+17:48:27.262 INFO - Executing: [find element: By.cssSelector: #main])
+17:48:27.270 INFO - Done: [find element: By.cssSelector: #main]
+17:48:27.272 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: #main]])
+17:48:27.327 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Mio2, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+17:48:27.328 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Mio2, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 8889
+Only local connections are allowed.
+17:48:28.140 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Mio2, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+17:48:28.144 INFO - Executing: [get: http://www.google.com])
+17:48:28.426 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on WINDOWS (79ef52bc-055e-4e4d-8813-726521169c54)] -> css selector: #main]]
+17:48:28.428 INFO - Executing: [delete session: d4296cee-37ba-48a6-954d-d6ed1769d008])
+17:48:28.917 INFO - Done: [delete session: d4296cee-37ba-48a6-954d-d6ed1769d008]
+17:48:30.658 INFO - Done: [get: http://www.google.com]
+17:48:30.660 INFO - Executing: [find elements: By.cssSelector: body])
+17:48:30.673 INFO - Done: [find elements: By.cssSelector: body]
+17:48:30.675 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: body]])
+17:48:30.685 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: body]]
+17:48:30.688 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+17:48:30.707 INFO - Done: [find element: By.cssSelector: input[type=text]]
+17:48:30.711 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+17:48:30.768 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+17:48:30.773 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+17:48:30.787 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+17:48:30.789 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: button[name=btnG]]])
+17:48:30.799 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: button[name=btnG]]]
+17:48:30.802 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+17:48:30.814 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+17:48:30.816 INFO - Executing: [click: 2 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: button[name=btnG]]])
+17:48:30.854 INFO - Done: [click: 2 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: button[name=btnG]]]
+17:48:31.857 INFO - Executing: [find element: By.cssSelector: #main])
+17:48:31.871 INFO - Done: [find element: By.cssSelector: #main]
+17:48:31.872 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: #main]])
+17:48:32.064 INFO - Done: [get text: 3 [[ChromeDriver: chrome on XP (81f58fe578ae9c146c2701ca4cad7219)] -> css selector: #main]]
+17:48:32.066 INFO - Executing: [delete session: 8a805c81-eafe-47bd-9607-189b3e200de9])
+17:48:32.722 INFO - Done: [delete session: 8a805c81-eafe-47bd-9607-189b3e200de9]
